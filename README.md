@@ -3,7 +3,7 @@
 
 This is a tool to read and save nifti files with nibabel in python.
 We often worry that the nifti files we read have different orientations.
-The solution is simply, reorient them all to canonical view.
+The solution is simple --- just reorient them all to canonical view.
 This tool can do this, you won't need to worry it will ruin the header.
 
 - To read an nifti image:

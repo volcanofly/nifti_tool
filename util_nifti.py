@@ -27,7 +27,7 @@ class util_nifti():
 			ext='.nii.gz'
 			return dir_file, filename, ext
 		else:
-			return dir_file, None, None
+			ValueError('filepath has be to .nii or .nii.gz')
 
 	def read_nifti(self,filepath,to_canonicalBool=False):
 		# read nifti file, return data and affine matrix
